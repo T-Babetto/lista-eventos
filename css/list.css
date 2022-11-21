@@ -1,0 +1,107 @@
+:root {
+  --color-background: #eceff8;
+  --first-color: #eceff8;
+  --second-color: #f8ecf8;
+  --third-color: #f8ecec;
+  --fourth-color: #eef8ec;
+  --color-text: #1b2442;
+  --color-white: #ffffff;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  text-decoration: none;
+}
+body {
+  background-color: var(--color-background);
+  font-family: "Merriweather";
+  color: var(--color-text);
+  width: 100%;
+  height: 100%;
+  text-align: -webkit-center;
+}
+a {
+  font-family: "Mulish";
+  font-weight: 700;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  gap: 2em;
+  align-items: start;
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+.card-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  width: -webkit-fill-available;
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  border-radius: 20px;
+  text-align: left;
+  place-content: start;
+  justify-content: space-between;
+  background-color: var(--color-white);
+  padding: 1em;
+}
+.wool {
+  filter: drop-shadow(0px 13px 25px rgba(44, 62, 80, 0.15));
+}
+.date-time {
+  display: flex;
+  flex-direction: column;
+  width: 162px;
+  height: 133px;
+  left: 297px;
+  top: 287px;
+  border-radius: 10px;
+  text-align: center;
+  place-content: center;
+}
+.color-1 {
+  background-color: var(--first-color);
+}
+.color-2 {
+  background-color: var(--second-color);
+}
+.color-3 {
+  background-color: var(--third-color);
+}
+.color-4 {
+  background-color: var(--fourth-color);
+}
+.card-text {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  width: 32em;
+}
+.calendar {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  gap: 1em;
+  margin-bottom: 4em;
+  align-items: center;
+  font-size: 16px;
+  font-family: "IBM Plex Sans";
+  width: 200px;
+  padding: 1em;
+  margin-left: 1em;
+}
+.selected {
+  background: #000000;
+  border-radius: 15px;
+  color: var(--color-white);
+  height: fit-content;
+  align-self: end;
+}
