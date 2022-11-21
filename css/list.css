@@ -30,11 +30,11 @@ a {
 .card {
   display: flex;
   flex-direction: column;
-  width: 65%;
-  gap: 2em;
+  width: fit-content;
   align-items: start;
   margin-top: 4em;
   margin-bottom: 4em;
+  gap: 2em;
 }
 .card-sections {
   display: flex;
@@ -48,9 +48,9 @@ a {
   border-radius: 20px;
   text-align: left;
   place-content: start;
-  justify-content: space-between;
   background-color: var(--color-white);
   padding: 1em;
+  gap: 2em;
 }
 .wool {
   filter: drop-shadow(0px 13px 25px rgba(44, 62, 80, 0.15));
